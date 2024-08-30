@@ -1,1 +1,1934 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANGUAGE LEARNER</title>
+    <link rel="stylesheet" href="PROJECT.css">
+</head>
+
+<body>
+    <!-- <p><h1><b>SOME EASY LEVEL KNOWLEDGE-GAINING MCQ QUESTIONS FROM PYTHON</b></h1></p>
+    <form action="post">
+    <p>1. Who developed Python Programming Language?</p>
+        <p><input type="radio" id="Wick van Rossum" name="developed" value="Wick van Rossum">
+        <label for="Wick van Rossum">Wick van Rossum</label></p>
+        <p><input type="radio" id="Rasmus Lerdorf" name="developed" value="Rasmus Lerdorf">
+        <label for="Rasmus Lerdorf">Rasmus Lerdorf</label></p>
+        <p><input type="radio" id="Guido van Rossum" name="developed" value="Guido van Rossum">
+        <label for="Guido van Rossum">Guido van Rossum</label></p>
+        <p><input type="radio" id="Niene Stom" name="developed" value="Niene Stom">
+        <label for="Niene Stom">Niene Stom</label></p>
+    <p>2. Which type of Programming does Python support?</p>
+        <p><input type="radio" id="object-oriented programming" name="support" value="object-oriented programming">
+        <label for="object-oriented programming">object-oriented programming</label></p>
+        <p><input type="radio" id="structured programming" name="support" value="structured programming">
+        <label for="structured programming">structured programming</label></p>
+        <p><input type="radio" id="functional programming" name="support" value="functional programming">
+        <label for="functional programming">functional programming</label></p>
+        <p><input type="radio" id="all of the mentioned" name="support" value="all of the mentioned">
+        <label for="all of the mentioned">all of the mentioned</label></p>
+    <p>3. Is Python case sensitive when dealing with identifiers?</p>
+        <p><input type="radio" id="no" name="dealing" value="no">
+        <label for="no">no</label></p>
+        <p><input type="radio" id="yes" name="dealing" value="yes">
+        <label for="yes">yes</label></p>
+        <p><input type="radio" id="machine dependent" name="dealing" value="machine dependent">
+        <label for="machine dependent">machine dependent</label></p>
+        <p><input type="radio" id="none of the mentioned" name="dealing" value="none of the mentioned">
+        <label for="none of the mentioned">none of the mentioned</label></p>
+    <p>4. Which of the following is the correct extension of the Python file?</p>
+        <p><input type="radio" id=".python" name="extension" value=".python">
+        <label for=".python">.python</label></p>
+        <p><input type="radio" id=".pl" name="extension" value=".pl">
+        <label for=".pl">.pl</label></p>
+        <p><input type="radio" id=".py" name="extension" value=".py">
+        <label for=".py">.py</label></p>
+        <p><input type="radio" id=".p" name="extension" value=".p">
+        <label for=".p">.p</label></p>
+    <p>5. Is Python code compiled or interpreted?</p>
+        <p><input type="radio" id="Python code is both compiled and interpreted" name="compiled or interpreted" value="Python code is both compiled and interpreted">
+        <label for="Python code is both compiled and interpreted">Python code is both compiled and interpreted</label></p>
+        <p><input type="radio" id="Python code is neither compiled nor interpreted" name="compiled or interpreted" value="Python code is neither compiled nor interpreted">
+        <label for="Python code is neither compiled nor interpreted">Python code is neither compiled nor interpreted</label></p>
+        <p><input type="radio" id="Python code is only compiled" name="compiled or interpreted" value="Python code is only compiled">
+        <label for="Python code is only compiled">Python code is only compiled</label></p>
+        <p><input type="radio" id="Python code is only interpreted" name="compiled or interpreted" value="Python code is only interpreted">
+        <label for="Python code is only interpreted">Python code is only interpreted</label></p>
+    <p>6. All keywords in Python are in _________</p>
+        <p><input type="radio" id="Capitalized" name="keyword" value="Capitalized">
+        <label for="Capitalized">Capitalized</label></p>
+        <p><input type="radio" id="lower case" name="keyword" value="lower case">
+        <label for="lower case">lower case</label></p>
+        <p><input type="radio" id="UPPER CASE" name="keyword" value="UPPER CASE">
+        <label for="UPPER CASE">UPPER CASE</label></p>
+        <p><input type="radio" id="None of the mentioned" name="keyword" value="None of the mentioned">
+        <label for="None of the mentioned">None of the mentioned</label></p>
+    <p>7. Which of the following is used to define a block of code in Python language?</p>
+        <p><input type="radio" id="Indentation" name="block" value="Indentation">
+        <label for="Indentation">Indentation</label></p>
+        <p><input type="radio" id="Key" name="block" value="Key">
+        <label for="Key">Key</label></p>
+        <p><input type="radio" id="Brackets" name="block" value="Brackets">
+        <label for="Brackets">Brackets</label></p>
+        <p><input type="radio" id="All of the mentioned" name="block" value="all of the mentioned">
+        <label for="all of the mentioned">all of the mentioned</label></p>
+    <p>8. Which keyword is used for function in Python language?</p>
+        <p><input type="radio" id="Function" name="function" value="Function">
+        <label for="Function">Function</label></p>
+        <p><input type="radio" id="def" name="function" value="def">
+        <label for="def">def</label></p>
+        <p><input type="radio" id="Fun" name="function" value="Fun">
+        <label for="Fun">Fun</label></p>
+        <p><input type="radio" id="Define" name="function" value="Define">
+        <label for="Define">Define</label></p>
+    <p>9. Which of the following character is used to give single-line comments in Python?</p>
+        <p><input type="radio" id="//" name="comments" value="//">
+        <label for="//">//</label></p>
+        <p><input type="radio" id="#" name="comments" value="#">
+        <label for="#">#</label></p>
+        <p><input type="radio" id="!" name="comments" value="!">
+        <label for="!">!</label></p>
+        <p><input type="radio" id="/*" name="comments" value="/*">
+        <label for="/*">/*</label></p>
+    <p>10. Which of the following functions can help us to find the version of python that we are currently working on?</p>
+        <p><input type="radio" id="sys.version(1)" name="version" value="sys.version(1)">
+        <label for="sys.version(1)">sys.version(1)</label></p>
+        <p><input type="radio" id="sys.version(0)" name="version" value="sys.version(0)">
+        <label for="sys.version(0)">sys.version(0)</label></p>
+        <p><input type="radio" id="sys.version()" name="version" value="sys.version()">
+        <label for="sys.version()">sys.version()</label></p>
+        <p><input type="radio" id="sys.version" name="version" value="sys.version">
+        <label for="sys.version">sys.version</label></p>
+    <p>11. Python supports the creation of anonymous functions at runtime, using a construct called __________</p>
+        <p><input type="radio" id="pi" name="construct" value="pi">
+        <label for="pi">pi</label></p>
+        <p><input type="radio" id="anonymous" name="construct" value="anonymous">
+        <label for="anonymous">anonymous</label></p>
+        <p><input type="radio" id="lambda" name="construct" value="lambda">
+        <label for="lambda">lambda</label></p>
+        <p><input type="radio" id="none of the mentioned" name="construct" value="none of the mentioned">
+        <label for="none of the mentioned">none of the mentioned</label></p>
+    <p>12. What is the order of precedence in python?</p>
+        <p><input type="radio" id="Exponential, Parentheses, Multiplication, Division, Addition, Subtraction" name="order" value="Exponential, Parentheses, Multiplication, Division, Addition, Subtraction">
+        <label for="Exponential, Parentheses, Multiplication, Division, Addition, Subtraction">Exponential, Parentheses, Multiplication, Division, Addition, Subtraction</label></p>
+        <p><input type="radio" id="Exponential, Parentheses, Division, Multiplication, Addition, Subtraction" name="order" value="Exponential, Parentheses, Division, Multiplication, Addition, Subtraction">
+        <label for="Exponential, Parentheses, Division, Multiplication, Addition, Subtraction">Exponential, Parentheses, Division, Multiplication, Addition, Subtraction</label></p>
+        <p><input type="radio" id="Parentheses, Exponential, Multiplication, Division, Subtraction, Addition" name="order" value="Parentheses, Exponential, Multiplication, Division, Subtraction, Addition">
+        <label for="Parentheses, Exponential, Multiplication, Division, Subtraction, Addition">Parentheses, Exponential, Multiplication, Division, Subtraction, Addition</label></p>
+        <p><input type="radio" id="Parentheses, Exponential, Multiplication, Division, Addition, Subtraction" name="order" value="Parentheses, Exponential, Multiplication, Division, Addition, Subtraction">
+        <label for="Parentheses, Exponential, Multiplication, Division, Addition, Subtraction">Parentheses, Exponential, Multiplication, Division, Addition, Subtraction</label></p>
+    <p>13. What does pip stand for python?</p>
+        <p><input type="radio" id="Pip Installs Python" name="pip" value="Pip Installs Python">
+        <label for="Pip Installs Python">Pip Installs Python</label></p>
+        <p><input type="radio" id="Pip Installs Packages" name="pip" value="Pip Installs Packages">
+        <label for="Pip Installs Packages">Pip Installs Packages</label></p>
+        <p><input type="radio" id="Preferred Installer Program" name="pip" value="Preferred Installer Program">
+        <label for="Preferred Installer Program">Preferred Installer Program</label></p>
+        <p><input type="radio" id="All of the mentioned" name="pip" value="All of the mentioned">
+        <label for="All of the mentioned">All of the mentioned</label></p>
+    <p>14. Which of the following is true for variable names in Python?</p>
+        <p><input type="radio" id="underscore and ampersand are the only two special characters allowed" name="variable" value="underscore and ampersand are the only two special characters allowed">
+        <label for="underscore and ampersand are the only two special characters allowed">underscore and ampersand are the only two special characters allowed</label></p>
+        <p><input type="radio" id="unlimited length" name="variable" value="unlimited length">
+        <label for="unlimited length">unlimited length</label></p>
+        <p><input type="radio" id="all private members must have leading and trailing underscores" name="variable" value="all private members must have leading and trailing underscores">
+        <label for="all private members must have leading and trailing underscores">all private members must have leading and trailing underscores</label></p>
+        <p><input type="radio" id="none of the mentioned" name="variable" value="none of the mentioned">
+        <label for="none of the mentioned">none of the mentioned</label></p>
+    <p>15. Which of the following is the truncation division operator in Python?</p>
+        <p><input type="radio" id="|" name="division" value="|">
+        <label for="|">|</label></p>
+        <p><input type="radio" id="//" name="division" value="//">
+        <label for="//">//</label></p>
+        <p><input type="radio" id="/" name="division" value="/">
+        <label for="/">/</label></p>
+        <p><input type="radio" id="%" name="division" value="%">
+        <label for="%">%</label></p>
+        <p>Do you wish to submit?</p>
+        <input type="submit" required>
+    </form>
+    <p><h1><b>SOME MEDIUM LEVEL KNOWLEDGE-GAINING MCQ QUESTIONS FROM PYTHON</b></h1></p>
+    <form action="post">
+    <p>1. What will be the output of the following code?</p>
+        <p>x = ["a", "b", "c"]</p>
+        <p>y = x</p>
+        <p>y.append("d")</p>
+        <p>print(x)</p>
+        <p><input type="radio" id="["a", "b", "c"]" name="output" value="["a", "b", "c"]">
+        <label for="["a", "b", "c"]">["a", "b", "c"]</label></p>
+        <p><input type="radio" id="["a", "b", "c", "d"]" name="output" value="["a", "b", "c", "d"]">
+        <label for="["a", "b", "c", "d"]">["a", "b", "c", "d"]</label></p>
+        <p><input type="radio" id="["a", "b"]" name="output" value="["a", "b"]">
+        <label for="["a", "b"]">["a", "b"]</label></p>
+        <p><input type="radio" id="Error" name="output" value="Error">
+        <label for="Error">Error</label></p>
+    <p>2. What does the len() function return when applied to a string?</p>
+        <p>s = "Hello"</p>
+        <p>print(len(s))</p>  
+        <p><input type="radio" id="4" name="return" value="4">
+        <label for="4">4</label></p>
+        <p><input type="radio" id="5" name="return" value="5">
+        <label for="5">5</label></p>
+        <p><input type="radio" id="6" name="return" value="6">
+        <label for="6">6</label></p>
+        <p><input type="radio" id="7" name="return" value="7">
+        <label for="7">7</label></p>
+    <p>3. What will be the output of the following code?</p>
+        <p>a = [1, 2, 3, 4, 5]</p>
+        <p>print(a[1:3])</p>    
+        <p><input type="radio" id="[1, 2, 3]" name="output" value="[1, 2, 3]">
+        <label for="[1, 2, 3]">[1, 2, 3]</label></p>
+        <p><input type="radio" id="[2, 3]" name="output" value="[2, 3]">
+        <label for="[2, 3]">[2, 3]</label></p>
+        <p><input type="radio" id="[2, 3, 4]" name="output" value="[2, 3, 4]">
+        <label for="[2, 3, 4]">[2, 3, 4]</label></p>
+        <p><input type="radio" id="[3, 4]" name="output" value="[3, 4]">
+        <label for="[3, 4]">[3, 4]</label></p>
+    <p>4. Which of the following is the correct syntax to create a set in Python?</p>
+        <p><input type="radio" id="s = {}" name="syntax" value="s = {}">
+        <label for="s = {}">s = {}</label></p>
+        <p><input type="radio" id="s = []" name="syntax" value="s = []">
+        <label for="s = []">s = []</label></p>
+        <p><input type="radio" id="s = set()" name="syntax" value="s = set()">
+        <label for="s = set()">s = set()</label></p>
+        <p><input type="radio" id="s = ()" name="syntax" value="s = ()">
+        <label for="s = ()">s = ()</label></p>
+    <p>5. What will be the output of the following code?</p>
+        <p>def func(x):</p>
+        <p>return [i**2 for i in range(x)]</p>
+        <p>print(func(3))</p>
+        <p><input type="radio" id="[0, 1, 4]" name="output" value="[0, 1, 4]">
+        <label for="[0, 1, 4]">[0, 1, 4]</label></p>
+        <p><input type="radio" id="[1, 4, 9]" name="output" value="[1, 4, 9]">
+        <label for="[1, 4, 9]">[1, 4, 9]</label></p>
+        <p><input type="radio" id="[0, 1, 4, 9]" name="output" value="[0, 1, 4, 9]">
+        <label for="[0, 1, 4, 9]">[0, 1, 4, 9]</label></p>
+        <p><input type="radio" id="[1, 4]" name="output" value="[1, 4]">
+        <label for="[1, 4]">[1, 4]</label></p>
+    <p>6. How do you insert an element,'x', at the end of a list,'a'?</p>
+        <p><input type="radio" id="a.add(x)" name="insert" value="a.add(x)">
+        <label for="a.add(x)">a.add(x)</label></p>
+        <p><input type="radio" id="a.append(x)" name="insert" value="a.append(x)">
+        <label for="a.append(x)">a.append(x)</label></p>
+        <p><input type="radio" id="a.insert(x)" name="insert" value="a.insert(x)">
+        <label for="a.insert(x)">a.insert(x)</label></p>
+        <p><input type="radio" id="a.extend(x)" name="insert" value="a.extend(x)">
+        <label for="a.extend(x)">a.extend(x)</label></p>
+    <p>7. What will be the output of the following code?</p>
+        <p>x = 5</p>
+        <p>y = 10</p>
+        <p>print(x + y if x < y else x - y)</p>    
+        <p><input type="radio" id="15" name="output" value="15">
+        <label for="15">15</label></p>
+        <p><input type="radio" id="-5" name="output" value="-5">
+        <label for="-5">-5</label></p>
+        <p><input type="radio" id="5" name="output" value="5">
+        <label for="5">5</label></p>
+        <p><input type="radio" id="Error" name="output" value="Error">
+        <label for="Error">Error</label></p>
+    <p>8. Which of the following statements is true about Python dictionaries?</p>
+        <p><input type="radio" id="Keys in a dictionary can be mutable." name="statements" value="Keys in a dictionary can be mutable.">
+        <label for="Keys in a dictionary can be mutable.">Keys in a dictionary can be mutable.</label></p>
+        <p><input type="radio" id="Values in a dictionary cannot be mutable." name="statements" value="Values in a dictionary cannot be mutable.">
+        <label for="Values in a dictionary cannot be mutable.">Values in a dictionary cannot be mutable.</label></p>
+        <p><input type="radio" id="Dictionaries are unordered collections." name="statements" value="Dictionaries are unordered collections.">
+        <label for="Dictionaries are unordered collections.">Dictionaries are unordered collections.</label></p>
+        <p><input type="radio" id="You cannot nest dictionaries." name="statements" value="You cannot nest dictionaries.">
+        <label for="You cannot nest dictionaries.">You cannot nest dictionaries.</label></p>
+    <p>9. What is the output of the following code?</p>
+        <p>x = {1, 2, 3}</p>
+        <p>y = {2, 3, 4}</p>
+        <p>print(x & y)</p>    
+        <p><input type="radio" id="{1, 2, 3}" name="output" value="{1, 2, 3}">
+        <label for="{1, 2, 3}">{1, 2, 3}</label></p>
+        <p><input type="radio" id="{2, 3}" name="output" value="{2, 3}">
+        <label for="{2, 3}">{2, 3}</label></p>
+        <p><input type="radio" id="{4, 5}" name="output" value="{4, 5}">
+        <label for="{4, 5}">{4, 5}</label></p>
+        <p><input type="radio" id="{1, 4}" name="output" value="{1, 4}">
+        <label for="{1, 4}">{1, 4}</label></p>
+    <p>10. What does the following list comprehension do?</p>
+        <p>[x for x in range(10) if x % 2 == 0]</p>
+        <p><input type="radio" id="Generates numbers from 0 to 9" name="comprehension" value="Generates numbers from 0 to 9">
+        <label for="Generates numbers from 0 to 9">Generates numbers from 0 to 9</label></p>
+        <p><input type="radio" id="Generates even numbers from 0 to 9" name="comprehension" value="Generates even numbers from 0 to 9">
+        <label for="Generates even numbers from 0 to 9">Generates even numbers from 0 to 9</label></p>
+        <p><input type="radio" id="Generates odd numbers from 0 to 9" name="comprehension" value="Generates odd numbers from 0 to 9">
+        <label for="Generates odd numbers from 0 to 9">Generates odd numbers from 0 to 9</label></p>
+        <p><input type="radio" id="Generates all numbers divisible by 2" name="comprehension" value="Generates all numbers divisible by 2">
+        <label for="Generates all numbers divisible by 2">Generates all numbers divisible by 2</label></p>
+    <p>11. What will be the output of the following code?</p>
+        <p>def f(a, b=[]):</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.append(a)</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return b</p>
+        <p>print(f(1))</p>
+        <p>print(f(2))</p>
+        <p><input type="radio" id="[1] [2]" name="output" value="[1] [2]">
+        <label for="[1] [2]">[1] [2]</label></p>
+        <p><input type="radio" id="[1] [1, 2]" name="output" value="[1] [1, 2]">
+        <label for="[1] [1, 2]">[1] [1, 2]</label></p>
+        <p><input type="radio" id="[1, 2] [1, 2]" name="output" value="[1, 2] [1, 2]">
+        <label for="[1, 2] [1, 2]">[1, 2] [1, 2]</label></p>
+        <p><input type="radio" id="[1] [1]" name="output" value="[1] [1]">
+        <label for="[1] [1]">[1] [1]</label></p>
+    <p>12. What will be the output of the following code?</p>
+        <p>x = "abcd"</p>
+        <p>for i in range(len(x)):</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x[i].upper()</p>
+        <p>print(x)</p>    
+        <p><input type="radio" id=""ABCD"" name="output" value=""ABCD"">
+        <label for=""ABCD"">"ABCD"</label></p>
+        <p><input type="radio" id=""abcd"" name="output" value=""abcd"">
+        <label for=""abcd"">"abcd"</label></p>
+        <p><input type="radio" id=""Abcd"" name="output" value=""Abcd"">
+        <label for=""Abcd"">"Abcd"</label></p>
+        <p><input type="radio" id="Error" name="output" value="Error">
+        <label for="Error">Error</label></p>
+    <p>13. Which of the following is a correct way to create a tuple in Python?</p>
+        <p><input type="radio" id="t = (1,)" name="tuple" value="t = (1,)">
+        <label for="t = (1,)">t = (1,)</label></p>
+        <p><input type="radio" id="t = [1, 2, 3]" name="tuple" value="t = [1, 2, 3]">
+        <label for="t = [1, 2, 3]">t = [1, 2, 3]</label></p>
+        <p><input type="radio" id="t = (1)" name="tuple" value="t = (1)">
+        <label for="t = (1)">t = (1)</label></p>
+        <p><input type="radio" id="t = {1, 2, 3}" name="tuple" value="t = {1, 2, 3}">
+        <label for="t = {1, 2, 3}">t = {1, 2, 3}</label></p>
+    <p>14. What does the map() function do?</p>
+        <p><input type="radio" id="It returns a list of results after applying a function to each item in a given iterable." name="function" value="It returns a list of results after applying a function to each item in a given iterable.">
+        <label for="It returns a list of results after applying a function to each item in a given iterable.">It returns a list of results after applying a function to each item in a given iterable.</label></p>
+        <p><input type="radio" id="It modifies a list in place." name="function" value="It modifies a list in place.">
+        <label for="It modifies a list in place.">It modifies a list in place.</label></p>
+        <p><input type="radio" id="It filters elements in a list based on a condition." name="function" value="It filters elements in a list based on a condition.">
+        <label for="It filters elements in a list based on a condition.">It filters elements in a list based on a condition.</label></p>
+        <p><input type="radio" id="It creates a dictionary by mapping keys to values." name="function" value="It creates a dictionary by mapping keys to values.">
+        <label for="It creates a dictionary by mapping keys to values.">It creates a dictionary by mapping keys to values.</label></p>
+    <p>15. Which of the following code snippets will create an empty list?</p>
+        <p><input type="radio" id="a = []" name="snippets" value="a = []">
+        <label for="a = []">a = []</label></p>
+        <p><input type="radio" id="a = list()" name="snippets" value="a = list()">
+        <label for="a = list()">a = list()</label></p>
+        <p><input type="radio" id="a = list([])" name="snippets" value="a = list([])">
+        <label for="a = list([])">a = list([])</label></p>
+        <p><input type="radio" id="All of the above" name="snippets" value="All of the above">
+        <label for="All of the above">All of the above</label></p>
+        <p>Do you wish to submit?</p>
+        <input type="submit" required>
+    </form>
+    <p><h1><b>SOME HARD LEVEL KNOWLEDGE-GAINING MCQ QUESTIONS FROM PYTHON</b></h1></p>
+    <form action="post">
+    <p>1. What will be the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s1.png" width="600" height="300"></p>
+        <p><input type="radio" id="[1] [2] [3]" name="output" value="[1] [2] [3]">
+        <label for="[1] [2] [3]">[1] [2] [3]</label></p>
+        <p><input type="radio" id="[1, 3] [2] [1, 3]" name="output" value="[1, 3] [2] [1, 3]">
+        <label for="[1, 3] [2] [1, 3]">[1, 3] [2] [1, 3]</label></p>
+        <p><input type="radio" id="[1, 3] [2] [3]" name="output" value="[1, 3] [2] [3]">
+        <label for="[1, 3] [2] [3]">[1, 3] [2] [3]</label></p>
+        <p><input type="radio" id="[1, 3] [1, 3] [1, 3]" name="output" value="[1, 3] [1, 3] [1, 3]">
+        <label for="[1, 3] [1, 3] [1, 3]">[1, 3] [1, 3] [1, 3]</label></p>
+    <p>2. Which of the following code snippets will raise an error?</p>
+        <p><input type="radio" id="a = [1, 2, 3]; a[3]" name="error" value="a = [1, 2, 3]; a[3]">
+        <label for="a = [1, 2, 3]; a[3]">a = [1, 2, 3]; a[3]</label></p>
+        <p><input type="radio" id="d = {"a": 1, "b": 2}; d["c"]" name="error" value="d = {"a": 1, "b": 2}; d["c"]">
+        <label for="d = {"a": 1, "b": 2}; d["c"]">d = {"a": 1, "b": 2}; d["c"]</label></p>
+        <p><input type="radio" id="x = (1, 2, 3); x[0]" name="error" value="x = (1, 2, 3); x[0]">
+        <label for="x = (1, 2, 3); x[0]">x = (1, 2, 3); x[0]</label></p>
+        <p><input type="radio" id="s = "abc"; s[2]" name="error" value="s = "abc"; s[2]">
+        <label for="s = "abc"; s[2]">s = "abc"; s[2]</label></p>
+    <p>3. What is the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s2.png" width="600" height="300"></p>
+        <p><input type="radio" id="{1, 2, 4, 5}" name="output" value="{1, 2, 4, 5}">
+        <label for="{1, 2, 4, 5}">{1, 2, 4, 5}</label></p>
+        <p><input type="radio" id="{1, 2, 3, 4, 5}" name="output" value="{1, 2, 3, 4, 5}">
+        <label for="{1, 2, 3, 4, 5}">{1, 2, 3, 4, 5}</label></p>
+        <p><input type="radio" id="{1, 2}" name="output" value="{1, 2}">
+        <label for="{1, 2}">{1, 2}</label></p>
+        <p><input type="radio" id="{3, 4, 5}" name="output" value="{3, 4, 5}">
+        <label for="{3, 4, 5}">{3, 4, 5}</label></p>
+    <p>4. What will be the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s3.png" width="600" height="300"></p>
+        <p><input type="radio" id="[1, 2, 3, 4]" name="output" value="[1, 2, 3, 4]">
+        <label for="[1, 2, 3, 4]">[1, 2, 3, 4]</label></p>
+        <p><input type="radio" id="[1, 4, 9, 16]" name="output" value="[1, 4, 9, 16]">
+        <label for="[1, 4, 9, 16]">[1, 4, 9, 16]</label></p>
+        <p><input type="radio" id="[2, 4, 6, 8]" name="output" value="[2, 4, 6, 8]">
+        <label for="[2, 4, 6, 8]">[2, 4, 6, 8]</label></p>
+        <p><input type="radio" id="<map object>" name="output" value="<map object>">
+        <label for="<map object>">&lt;map object&gt;</label></p>
+    <p>5. What will be the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s4.png" width="600" height="300"></p>
+        <p><input type="radio" id="6" name="output" value="6">
+        <label for="6">6</label></p>
+        <p><input type="radio" id="11" name="output" value="11">
+        <label for="11">11</label></p>
+        <p><input type="radio" id="5" name="output" value="5">
+        <label for="5">5</label></p>
+        <p><input type="radio" id="Error" name="output" value="Error">
+        <label for="Error">Error</label></p>
+    <p>6. What will be the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s5.png" width="600" height="300"></p>
+        <p><input type="radio" id="False" name="output" value="False">
+        <label for="False">False</label></p>
+        <p><input type="radio" id="True" name="output" value="True">
+        <label for="True">True</label></p>
+        <p><input type="radio" id="Error" name="output" value="Error">
+        <label for="Error">Error</label></p>
+        <p><input type="radio" id="None" name="output" value="None">
+        <label for="None">None</label></p>
+    <p>7. What will be the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s6.png" width="600" height="300"></p>
+        <p><input type="radio" id="[1] [2] [3]" name="output" value="[1] [2] [3]">
+        <label for="[1] [2] [3]">[1] [2] [3]</label></p>
+        <p><input type="radio" id="[1] [2] [1, 3]" name="output" value="[1] [2] [1, 3]">
+        <label for="[1] [2] [1, 3]">[1] [2] [1, 3]</label></p>
+        <p><input type="radio" id="[1, 3] [2] [1, 3]" name="output" value="[1, 3] [2] [1, 3]">
+        <label for="[1, 3] [2] [1, 3]">[1, 3] [2] [1, 3]</label></p>
+        <p><input type="radio" id="[1] [1, 2] [1, 2, 3]" name="output" value="[1] [1, 2] [1, 2, 3]">
+        <label for="[1] [1, 2] [1, 2, 3]">[1] [1, 2] [1, 2, 3]</label></p>
+    <p>8. What is the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s7.png" width="600" height="300"></p>
+        <p><input type="radio" id="A B" name="output" value="A B">
+        <label for="A B">A B</label></p>
+        <p><input type="radio" id="B B" name="output" value="B B">
+        <label for="B B">B B</label></p>
+        <p><input type="radio" id="A A" name="output" value="A A">
+        <label for="A A">A A</label></p>
+        <p><input type="radio" id="B A" name="output" value="B A">
+        <label for="B A">B A</label></p>
+    <p>9. Which of the following code snippets correctly implements a singleton pattern?</p>
+        <p><input type="radio" id="a" name="comments" value="a">
+        <label for="a">a</label></p>
+        <p><input type="image" src="D:\VS CODE\s8.png" width="600" height="300"></p>
+        <p><input type="radio" id="b" name="comments" value="b">
+        <label for="b">b</label></p>
+        <p><input type="image" src="D:\VS CODE\s9.png" width="600" height="300"></p>
+        <p><input type="radio" id="c" name="comments" value="c">
+        <label for="c">c</label></p>
+        <p><input type="image" src="D:\VS CODE\s10.png" width="600" height="300"></p>
+        <p><input type="radio" id="d" name="comments" value="d">
+        <label for="d">d</label></p>
+        <p><input type="image" src="D:\VS CODE\s11.png" width="600" height="300"></p>
+    <p>10. What will be the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s12.png" width="600" height="300"></p>
+        <p><input type="radio" id="False True" name="output" value="False True">
+        <label for="False True">False True</label></p>
+        <p><input type="radio" id="True True" name="output" value="True True">
+        <label for="True True">True True</label></p>
+        <p><input type="radio" id="False False" name="output" value="False False">
+        <label for="False False">False False</label></p>
+        <p><input type="radio" id="True False" name="output" value="True False">
+        <label for="True False">True False</label></p>
+    <p>11. Which of the following code snippets will raise a TypeError?</p>
+        <p><input type="radio" id="hash([1, 2, 3])" name="snippets" value="hash([1, 2, 3])">
+        <label for="hash([1, 2, 3])">hash([1, 2, 3])</label></p>
+        <p><input type="radio" id="hash((1, 2, 3))" name="snippets" value="hash((1, 2, 3))">
+        <label for="hash((1, 2, 3))">hash((1, 2, 3))</label></p>
+        <p><input type="radio" id="hash("string")" name="snippets" value="hash("string")">
+        <label for="hash("string")">hash("string")</label></p>
+        <p><input type="radio" id="hash(123)" name="snippets" value="hash(123)">
+        <label for="hash(123)">hash(123)</label></p>
+    <p>12. What will be the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s13.png" width="400" height="300"></p>
+        <p><input type="radio" id="2" name="output" value="2">
+        <label for="2">2</label></p>
+        <p><input type="radio" id="3" name="output" value="3">
+        <label for="3">3</label></p>
+        <p><input type="radio" id="Error" name="output" value="Error">
+        <label for="Error">Error</label></p>
+        <p><input type="radio" id="None" name="output" value="None">
+        <label for="None">None</label></p>
+    <p>13. What will be the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s14.png" width="400" height="300"></p>
+        <p><input type="radio" id="(1, 2, 3, 4, 5)" name="output" value="(1, 2, 3, 4, 5)">
+        <label for="(1, 2, 3, 4, 5)">(1, 2, 3, 4, 5)</label></p>
+        <p><input type="radio" id="(1, 2, 3, (4, 5))" name="output" value="(1, 2, 3, (4, 5))">
+        <label for="(1, 2, 3, (4, 5))">(1, 2, 3, (4, 5))</label></p>
+        <p><input type="radio" id="((1, 2, 3), (4, 5))" name="output" value="((1, 2, 3), (4, 5))">
+        <label for="((1, 2, 3), (4, 5))">((1, 2, 3), (4, 5))</label></p>
+        <p><input type="radio" id="Error" name="output" value="Error">
+        <label for="Error">Error</label></p>
+    <p>14. What will be the output of the following code?</p>
+        <p><input type="image" src="D:\VS CODE\s15.png" width="400" height="300"></p>
+        <p><input type="radio" id="{1, 2, 3, 4} frozenset({1, 2, 3})" name="output" value="{1, 2, 3, 4} frozenset({1, 2, 3})">
+        <label for="{1, 2, 3, 4} frozenset({1, 2, 3})">{1, 2, 3, 4} frozenset({1, 2, 3})</label></p>
+        <p><input type="radio" id="{1, 2, 3} frozenset({1, 2, 3, 4})" name="output" value="{1, 2, 3} frozenset({1, 2, 3, 4})">
+        <label for="{1, 2, 3} frozenset({1, 2, 3, 4})">{1, 2, 3} frozenset({1, 2, 3, 4})</label></p>
+        <p><input type="radio" id="{1, 2, 3, 4} frozenset({1, 2, 3, 4})" name="output" value="{1, 2, 3, 4} frozenset({1, 2, 3, 4})">
+        <label for="{1, 2, 3, 4} frozenset({1, 2, 3, 4})">{1, 2, 3, 4} frozenset({1, 2, 3, 4})</label></p>
+        <p><input type="radio" id="{1, 2, 3} frozenset({1, 2, 3})" name="output" value="{1, 2, 3} frozenset({1, 2, 3})">
+        <label for="{1, 2, 3} frozenset({1, 2, 3})">{1, 2, 3} frozenset({1, 2, 3})</label></p>
+    <p>15. What will be the output of the following code?</p>
+        <p><img src="D:\VS CODE\s16.png" width="400" height="300"></p>
+        <p><input type="radio" id="X(10)" name="output" value="X(10)">
+        <label for="X(10)">X(10)</label></p>
+        <p><input type="radio" id="X(10) [object]" name="output" value="X(10) [object]">
+        <label for="X(10) [object]">X(10) [object]</label></p>
+        <p><input type="radio" id="10" name="output" value="10">
+        <label for="10">10</label></p>
+        <p><input type="radio" id="Error" name="output" value="Error">
+        <label for="Error">Error</label></p>
+        <p>Do you wish to submit?</p>
+        <input type="submit" required>
+    </form>
+    <h2>What is Python?</h2>
+    <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+    <p>It is used for:</p>
+    <ul>
+        <li>web development (server-side),</li>
+        <li>software development,</li>
+        <li>mathematics,</li>
+        <li>system scripting.</li>
+    </ul>
+    <h3>What can Python do?</h3>
+    <ul>
+        <li>Python can be used on a server to create web applications.</li>
+        <li>Python can be used alongside software to create workflows.</li>
+        <li>Python can connect to database systems. It can also read and modify files.</li>
+        <li>Python can be used to handle big data and perform complex mathematics.</li>
+        <li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+    </ul>
+    <h3>Why Python?</h3>
+    <ul>
+        <li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</li>
+        <li>Python has a simple syntax similar to the English language.</li>
+        <li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
+        <li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+        <li>Python can be treated in a procedural way, an object-oriented way or a functional way.</li>
+    </ul>
+    <h3>Good to know</h3>
+    <ul>
+        <li>The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.</li>
+        <li>In this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.</li>
+    </ul>
+    <h3>Python Syntax compared to other programming languages</h3>
+    <ul>
+        <li>Python was designed for readability, and has some similarities to the English language with influence from mathematics.</li>
+        <li>Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</li>
+        <li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</li>
+    </ul>
+    <style>
+        .welcome p{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0.2rem;
+}
+.prev-next-top a{
+    position: absolute;
+    top: 125px;
+    margin-top: 30px;
+    
+}
+.next-btn a{
+    position: absolute;
+    left: 40rem;
+    border: 1px solid #04AA6D;
+    border-radius: 5px;
+    margin-right: 50rem;
+    /* margin-bottom:; */
+
+    padding: 0.6em 1rem;
+    
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 200;
+    color: #ffffff;
+    background-color: #04AA6D;
+}
+.next-btn a:hover{
+    background-color:#059862 !important;
+}
+.prev-btn a{
+    position: absolute;
+    left: 3rem;
+    border: 1px solid #04AA6D;
+    border-radius: 5px;
+    margin-right: 50rem;
+    /* margin-bottom: 10px; */
+    padding: 0.6em 1.4rem;
+    
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 200;
+    color: #ffffff;
+    background-color: #04AA6D;
+    
+    
+
+    
+}
+.prev-btn a:hover{
+    background-color:#059862 !important;
+}
+.content{
+    margin-top: 40px;
+}
+.prev-next-bottom{
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+}
+.w3-codespan {
+    font-size: 105%;
+    background-color: rgba(222, 222, 222, 0.3);
+    color: crimson;
+    /* background-color: #f1f1f1; */
+    padding-left: 4px;
+    padding-right: 4px;
+    /* font-size: 110%; */
+    font-family: Consolas, Menlo, "courier new", monospace;
+}
+h1 {
+    font-size: 42px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+.intro {
+    font-size: 16px;
+}
+p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+h2 {
+    font-size: 32px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+h3 {
+    font-size: 28px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+body {
+    font-family: Verdana, sans-serif;
+    /* font-size: 15px; */
+    line-height: 1.5;
+    padding: 16px 32px 32px 32px;
+    background-color: #fff !important;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.w3-example {
+    padding: 8px 20px;
+    margin: 24px -20px;
+    box-shadow: none !important;
+}
+.w3-code {
+    font-size: 15px;
+    border-left: 4px solid #04AA6D;
+    margin-top: 12px !important;
+    margin-bottom: 16px !important;
+    width: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    word-wrap: break-word;
+    font-family: Consolas, Menlo, "courier new", monospace;
+}
+.w3-example {
+    padding: 0px 20px;
+    margin: 24px -20px;
+    box-shadow: none !important;
+    background-color: #E7E9EB;
+    border-radius: 5px;
+}
+.w3-btn:hover, .w3-btn:active {
+    box-shadow: none;
+    background-color: #059862 !important;
+}
+.w3-btn, .w3-btn:link {
+    color: #FFFFFF;
+    background-color: #04AA6D;
+}
+.w3-example .w3-btn {
+    background-color: #04AA6D !important;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+}
+.w3-margin-bottom {
+    margin-bottom: 16px !important;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+    </style>
+        <h1><p>Python Comments</p></h1>    
+    <div class="prev-next-top">
+
+        <div class="next-btn">
+            <a href="3.html" class="next-btn">Next</a>
+        </div>
+        <div class="prev-btn">
+            <a href="right.html" class="prev-btn">Previous</a>
+        </div>
+
+    </div>
+
+    <hr style="margin-top: 90px; opacity: 0.3;">
+    <p class="intro">Comments can be used to explain Python code.</p>
+    <p class="intro">Comments can be used to make the code more readable.</p>
+    <p class="intro">Comments can be used to prevent execution when testing code.</p>
+    <hr style="margin-top: 30px; opacity: 0.3;">
+    <h2>Creating a Comment</h2>
+    <p>
+        Comments starts with a 
+        <code class="w3-codespan">#</code>
+        , and Python will ignore them:
+    </p>
+    <div class="w3-example">
+        <h3>Example</h3>
+        <div class="w3-code notranslate pythonHigh"><span class="pythoncolor" style="color:black">
+            <span class="commentcolor" style="color:green">#This is a comment<br></span>
+            <span class="pythonkeywordcolor" style="color:mediumblue">print</span>(<span class="pythonstringcolor" style="color:brown">"Hello, World!"</span>)<span class="pythonnumbercolor" style="color:red">
+            </span> </span></div>
+        <a target="_blank" class="w3-btn w3-margin-bottom" href="trypython.asp?filename=demo_comment1">Try it Yourself »</a>
+    </div>
+    <p>
+        Comments can be placed at the end of a line, and Python will ignore the rest of the line:
+    </p>
+    <div class="w3-example">
+        <h3>Example</h3>
+        <div class="w3-code notranslate pythonHigh"><span class="pythoncolor" style="color:black">
+        <span class="pythonkeywordcolor" style="color:mediumblue">print</span>(<span class="pythonstringcolor" style="color:brown">"Hello, World!"</span>) <span class="commentcolor" style="color:green">#This is a comment
+         </span></span></div>
+        <a target="_blank" class="w3-btn w3-margin-bottom" href="trypython.asp?filename=demo_comment2">Try it Yourself »</a>
+    </div>
+    <p>A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code:</p>
+    <div class="w3-example">
+        <h3>Example</h3>
+        <div class="w3-code notranslate pythonHigh"><span class="pythoncolor" style="color:black"><span class="pythonnumbercolor" style="color:red">
+        </span>  <span class="commentcolor" style="color:green">#print("Hello, World!")<br></span><span class="pythonkeywordcolor" style="color:mediumblue">print</span>(<span class="pythonstringcolor" style="color:brown">"Cheers, Mate!"</span>) </span></div>
+        <a target="_blank" class="w3-btn w3-margin-bottom" href="trypython.asp?filename=demo_comment3">Try it Yourself »</a>
+    </div>
+    <hr style="margin-top: 30px;opacity: 0.3;"> 
+    <h2>Multiline Comments</h2>
+    <p>Python does not really have a syntax for multiline comments.</p>
+    <p>
+        To add a multiline comment you could insert a 
+        <code class="w3-codespan">#</code>
+        for each line:
+    </p>
+    <div class="w3-example">
+        <h3>Example</h3>
+        <div class="w3-code notranslate pythonHigh"><span class="pythoncolor" style="color:black"><span class="pythonnumbercolor" style="color:red">
+        </span>  <span class="commentcolor" style="color:green">#This is a comment<br></span><span class="commentcolor" style="color:green">#written in<br></span><span class="commentcolor" style="color:green">#more than just one line<br></span><span class="pythonkeywordcolor" style="color:mediumblue">print</span>(<span class="pythonstringcolor" style="color:brown">"Hello, 
+          World!"</span>)<span class="pythonnumbercolor" style="color:red">
+        </span> </span></div>
+        <a target="_blank" class="w3-btn w3-margin-bottom" href="trypython.asp?filename=demo_comment4">Try it Yourself »</a>
+    </div>
+    <p>Or, not quite as intended, you can use a multiline string.</p>
+    <p>Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:</p>
+    <div class="w3-example">
+        <h3>Example</h3>
+        <div class="w3-code notranslate pythonHigh"><span class="pythoncolor" style="color:black"><span class="pythonnumbercolor" style="color:red">
+        </span>  <span class="pythonstringcolor" style="color:brown">""</span><span class="pythonstringcolor" style="color:brown">"<br>This is a comment<br>written in <br>more than just 
+          one line<br>"</span><span class="pythonstringcolor" style="color:brown">""</span><br><span class="pythonkeywordcolor" style="color:mediumblue">print</span>(<span class="pythonstringcolor" style="color:brown">"Hello, World!"</span>) </span></div>
+        <a target="_blank" class="w3-btn w3-margin-bottom" href="trypython.asp?filename=demo_comment5">Try it Yourself »</a>
+    </div>
+    <p>As long as the string is not assigned to a variable, Python will read the code, but then ignore it, and you have made a multiline comment.</p>
+    <hr style="margin-top: 30px; opacity: 0.3;">
+    <div class="prev-next-bottom">
+        <div class="next-btn">
+            <a href="3.html" class="next-btn">Next</a>
+        </div>
+        <div class="prev-btn">
+            <a href="right.html" class="prev-btn">Previous</a>
+        </div>
+    </div> -->
+    <!-- <style>
+        body {
+    background-color: #fff !important;
+    margin-top: 90px;
+    padding: 16px 32px 32px 32px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:root{
+    --bg-color: #fff;
+    --snd-bg-color:#dddfdf;
+    --text-color:#000;
+    --main-color: #007bff;
+    --hover-color: #0056b3;
+
+}
+.welcome p{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0.2rem;
+}
+.prev-next-top a{
+    position: absolute;
+    top: 125px;;
+    margin-top: 60px;
+    
+}
+.next-btn a{
+    position: absolute;
+    left: 40rem;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin-right: 50rem;
+    margin-bottom: 40px;
+
+    padding: 0.6em 1rem;
+    
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    
+    
+
+    
+}
+.next-btn a:hover{
+    background-color:var(--hover-color);
+}
+.prev-btn a{
+    position: absolute;
+    left: 3rem;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin-right: 50rem;
+    margin-bottom: 40px;
+    padding: 0.6em 1.4rem;
+    
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    
+    
+
+    
+}
+.prev-btn a:hover{
+    background-color:var(--hover-color);
+}
+.content{
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+/* h2 {
+    font-size: 30px;
+} */
+h2 {
+    display: block;
+    /* font-size: 1.5em; */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+    unicode-bidi: isolate;
+}
+h3 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+h3 {
+    display: block;
+    /* font-size: 1.17em; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+    unicode-bidi: isolate;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 15px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+ul {
+    list-style-type: disc;
+}
+.prev-next-bottom{
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+.ex_box{
+    max-width: 100%;
+    height: 30%;
+    background-color: var(--snd-bg-color);
+    margin-left: -1.2rem;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.ex_box p{
+    margin-left: 2rem;
+    padding-top: 12px;
+    font-size: 25px;
+}
+.code_bg{
+    background-color: var(--bg-color);
+    margin-left: 2rem;
+    margin-top: 15px;
+    padding-bottom: 0px;
+    border-left: 5px solid var(--main-color);
+}
+.code_bg pre {
+    text-align: left;
+    padding-left: 6px;
+    font-size: 18px;
+
+}
+.try_btn{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.try_btn a{
+    position: static;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin-top: 20px;
+
+    text-decoration: none;
+    padding: 0.5em 1rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    
+}
+.try_btn a:hover{
+    background-color:var(--hover-color);
+}
+img{
+    align-items: center;
+    display: block;
+    padding-left: 5rem;
+    max-width: 80%;
+    height: auto;
+}
+.w3-codespan {
+    font-size: 105%;
+    background-color: rgba(222, 222, 222, 0.3);
+    color: crimson;
+    /* background-color: #f1f1f1; */
+    padding-left: 4px;
+    padding-right: 4px;
+    /* font-size: 110%; */
+    font-family: Consolas, Menlo, "courier new", monospace;
+}
+.note {
+    font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 16px 32px;
+    border-left: none;
+    background-color: #ffffcc;
+}
+.underline{
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.underline:hover{
+    color: green;
+}
+
+    </style>
+    <div class="welcome">
+        <p>Python Numbers</p>
+    </div>
+    
+    <div class="prev-next-top">
+
+        <div class="next-btn">
+            <a href="3.html" class="next-btn">Next</a>
+        </div>
+        <div class="prev-btn">
+            <a href="right.html" class="prev-btn">Previous</a>
+        </div>
+
+    </div>
+
+    <hr style="margin-top: 90px; opacity: 0.3;">
+    <div class="content">
+
+        <h2>Python Numbers</h2>
+        <p>There are three numeric types in Python:</p>
+        <ul>
+            <li><code class="w3-codespan">int</code></li>
+            <li><code class="w3-codespan">float</code></li>
+            <li><code class="w3-codespan">complex</code></li>
+        </ul>
+        <p>Variables of numeric types are created when you assign a value to them:</p>
+        <div class="ex_box">
+            <p>Example</p>
+        
+            <div class="code_bg">
+                <pre>x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+                </pre>
+            </div>
+        
+             <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div> 
+        </div>
+        <p>To verify the type of any object in Python, use the <code class="w3-codespan">type()</code> function:</p>
+        <div class="ex_box">
+            <p>Example</p>
+        
+            <div class="code_bg">
+                <pre>print(type(x))
+print(type(y))
+print(type(z))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <hr style="margin-top: 90px; opacity: 0.3;">
+        <h2>Int</h2>
+        <p>Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Integers:</p>
+            <div class="code_bg">
+                <pre>x = 1
+y = 35656222554887711
+z = -3255522
+                
+print(type(x))
+print(type(y))
+print(type(z))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <hr style="margin-top: 90px; opacity: 0.3;">
+        <h2>Float</h2>
+        <p>Float, or "floating point number" is a number, positive or negative, containing one or more decimals.</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Floats:</p>
+            <div class="code_bg">
+                <pre>x = 1.10
+y = 1.0
+z = -35.59
+                
+print(type(x))
+print(type(y))
+print(type(z))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <p>Float can also be scientific numbers with an "e" to indicate the power of 10.</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Floats:</p>
+            <div class="code_bg">
+                <pre>x = 35e3
+y = 12E4
+z = -87.7e100
+                
+print(type(x))
+print(type(y))
+print(type(z))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <hr style="margin-top: 90px; opacity: 0.3;">
+        <h2>Complex</h2>
+        <p>Complex numbers are written with a "j" as the imaginary part:</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Complex:</p>
+            <div class="code_bg">
+                <pre>x = 3+5j
+y = 5j
+z = -5j
+                
+print(type(x))
+print(type(y))
+print(type(z))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <hr style="margin-top: 90px; opacity: 0.3;">
+        <h2>Type Conversion</h2>
+        <p>You can convert from one type to another with the <code class="w3-codespan">int()</code>, <code class="w3-codespan">float()</code>, and <code class="w3-codespan">complex()</code> methods:</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Convert from one type to another:</p>
+            <div class="code_bg">
+                <pre>x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+                    
+#convert from int to float:
+a = float(x)
+                    
+#convert from float to int:
+b = int(y)
+                    
+#convert from int to complex:
+c = complex(x)
+                    
+print(a)
+print(b)
+print(c)
+                    
+print(type(a))
+print(type(b))
+print(type(c))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <div class="note">
+            <p><strong>Note:</strong>
+                You cannot convert complex numbers into another number type.</p>
+        </div>
+        <hr style="margin-top: 90px; opacity: 0.3;">
+        <h2>Random Number</h2>
+        <p>Python does not have a <code class="w3-codespan">random()</code> function to make a random number, but Python has a built-in module called <code class="w3-codespan">random</code> that can be used to make random numbers:</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Import the random module, and display a random number between 1 and 9:</p>
+            <div class="code_bg">
+                <pre>import random
+
+print(random.randrange(1, 10))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <p>
+        In our 
+        <a href="module_random.asp" class="underline">Random Module Reference</a>
+        you will learn more about the Random module.
+        </p>
+        <hr style="margin-top: 40px; opacity: 0.3; margin-bottom: 20px;">
+
+
+    <div class="prev-next-bottom">
+
+        <div class="next-btn">
+            <a href="3.html" class="next-btn">Next</a>
+        </div>
+        <div class="prev-btn">
+            <a href="right.html" class="prev-btn">Previous</a>
+        </div>
+
+    </div> --> 
+    <!-- <style>
+        body {
+    background-color: #fff !important;
+    margin-top: 90px;
+    padding: 16px 32px 32px 32px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:root{
+    --bg-color: #fff;
+    --snd-bg-color:#dddfdf;
+    --text-color:#000;
+    --main-color: #007bff;
+    --hover-color: #0056b3;
+
+}
+.welcome p{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0.2rem;
+}
+.prev-next-top a{
+    position: absolute;
+    top: 125px;;
+    margin-top: 60px;
+    
+}
+.next-btn a{
+    position: absolute;
+    left: 40rem;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin-right: 50rem;
+    margin-bottom: 40px;
+
+    padding: 0.6em 1rem;
+    
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    
+    
+
+    
+}
+.next-btn a:hover{
+    background-color:var(--hover-color);
+}
+.prev-btn a{
+    position: absolute;
+    left: 3rem;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin-right: 50rem;
+    margin-bottom: 40px;
+    padding: 0.6em 1.4rem;
+    
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    
+    
+
+    
+}
+.prev-btn a:hover{
+    background-color:var(--hover-color);
+}
+.content{
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+/* h2 {
+    font-size: 30px;
+} */
+h2 {
+    display: block;
+    /* font-size: 1.5em; */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+    unicode-bidi: isolate;
+}
+h3 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+h3 {
+    display: block;
+    /* font-size: 1.17em; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+    unicode-bidi: isolate;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 15px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+ul {
+    list-style-type: disc;
+}
+.prev-next-bottom{
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+.ex_box{
+    max-width: 100%;
+    height: 30%;
+    background-color: var(--snd-bg-color);
+    margin-left: -1.2rem;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.ex_box p{
+    margin-left: 2rem;
+    padding-top: 12px;
+    font-size: 25px;
+}
+.code_bg{
+    background-color: var(--bg-color);
+    margin-left: 2rem;
+    margin-top: 15px;
+    padding-bottom: 0px;
+    border-left: 5px solid var(--main-color);
+}
+.code_bg pre {
+    text-align: left;
+    padding-left: 6px;
+    font-size: 18px;
+
+}
+.try_btn{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.try_btn a{
+    position: static;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin-top: 20px;
+
+    text-decoration: none;
+    padding: 0.5em 1rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    
+}
+.try_btn a:hover{
+    background-color:var(--hover-color);
+}
+img{
+    align-items: center;
+    display: block;
+    padding-left: 5rem;
+    max-width: 80%;
+    height: auto;
+}
+.w3-codespan {
+    font-size: 105%;
+    background-color: rgba(222, 222, 222, 0.3);
+    color: crimson;
+    /* background-color: #f1f1f1; */
+    padding-left: 4px;
+    padding-right: 4px;
+    /* font-size: 110%; */
+    font-family: Consolas, Menlo, "courier new", monospace;
+}
+.note {
+    font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 16px 32px;
+    border-left: none;
+    background-color: #ffffcc;
+}
+.underline{
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.underline:hover{
+    color: green;
+}
+
+    </style>
+    <div class="welcome">
+        <p>Python Casting</p>
+    </div>
+    
+    <div class="prev-next-top">
+
+        <div class="next-btn">
+            <a href="3.html" class="next-btn">Next</a>
+        </div>
+        <div class="prev-btn">
+            <a href="right.html" class="prev-btn">Previous</a>
+        </div>
+
+    </div>
+
+    <hr style="margin-top: 90px; opacity: 0.3;">
+    <div class="content">
+
+        <h2>Specify a Variable Type</h2>
+        <p>There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.</p>
+        <p>Casting in python is therefore done using constructor functions:</p>
+        <ul>
+            <li><code class="w3-codespan">int()</code> - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)</li>
+            <li><code class="w3-codespan">float()</code> - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)</li>
+            <li><code class="w3-codespan">str()</code> - constructs a string from a wide variety of data types, including strings, integer literals and float literals</li>
+        </ul>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Integers:</p>
+            <div class="code_bg">
+                <pre>x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+                </pre>
+            </div>
+        
+             <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div> 
+        </div>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Floats:</p>
+            <div class="code_bg">
+                <pre>x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
+                    
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Strings:</p>
+            <div class="code_bg">
+                <pre>x = str("s1") # x will be 's1'
+y = str(2)    # y will be '2'
+z = str(3.0)  # z will be '3.0'
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <hr style="margin-top: 30px; opacity: 0.3;">
+    <div class="prev-next-bottom">
+
+        <div class="next-btn">
+            <a href="3.html" class="next-btn">Next</a>
+        </div>
+        <div class="prev-btn">
+            <a href="right.html" class="prev-btn">Previous</a>
+        </div>
+
+    </div> -->
+    <!-- <style>
+        body {
+    background-color: #fff !important;
+    margin-top: 90px;
+    padding: 16px 32px 32px 32px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:root{
+    --bg-color: #fff;
+    --snd-bg-color:#dddfdf;
+    --text-color:#000;
+    --main-color: #007bff;
+    --hover-color: #0056b3;
+
+}
+.welcome p{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0.2rem;
+}
+.prev-next-top a{
+    position: absolute;
+    top: 125px;;
+    margin-top: 60px;
+    
+}
+.next-btn a{
+    position: absolute;
+    left: 40rem;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin-right: 50rem;
+    margin-bottom: 40px;
+
+    padding: 0.6em 1rem;
+    
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    
+    
+
+    
+}
+.next-btn a:hover{
+    background-color:var(--hover-color);
+}
+.prev-btn a{
+    position: absolute;
+    left: 3rem;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin-right: 50rem;
+    margin-bottom: 40px;
+    padding: 0.6em 1.4rem;
+    
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    
+    
+
+    
+}
+.prev-btn a:hover{
+    background-color:var(--hover-color);
+}
+.content{
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+/* h2 {
+    font-size: 30px;
+} */
+h2 {
+    display: block;
+    /* font-size: 1.5em; */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+    unicode-bidi: isolate;
+}
+h3 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+h3 {
+    display: block;
+    /* font-size: 1.17em; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+    unicode-bidi: isolate;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 15px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+ul {
+    list-style-type: disc;
+}
+.prev-next-bottom{
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+.ex_box{
+    max-width: 100%;
+    height: 30%;
+    background-color: var(--snd-bg-color);
+    margin-left: -1.2rem;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.ex_box p{
+    margin-left: 2rem;
+    padding-top: 12px;
+    font-size: 25px;
+}
+.code_bg{
+    background-color: var(--bg-color);
+    margin-left: 2rem;
+    margin-top: 15px;
+    padding-bottom: 0px;
+    border-left: 5px solid var(--main-color);
+}
+.code_bg pre {
+    text-align: left;
+    padding-left: 6px;
+    font-size: 18px;
+
+}
+.try_btn{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.try_btn a{
+    position: static;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin-top: 20px;
+
+    text-decoration: none;
+    padding: 0.5em 1rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    
+}
+.try_btn a:hover{
+    background-color:var(--hover-color);
+}
+img{
+    align-items: center;
+    display: block;
+    padding-left: 5rem;
+    max-width: 80%;
+    height: auto;
+}
+.w3-codespan {
+    font-size: 105%;
+    background-color: rgba(222, 222, 222, 0.3);
+    color: crimson;
+    /* background-color: #f1f1f1; */
+    padding-left: 4px;
+    padding-right: 4px;
+    /* font-size: 110%; */
+    font-family: Consolas, Menlo, "courier new", monospace;
+}
+.note {
+    font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 16px 32px;
+    border-left: none;
+    background-color: #ffffcc;
+}
+.underline{
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.underline:hover{
+    color: green;
+}
+
+    </style>
+    <div class="welcome">
+        <p>Python Booleans</p>
+    </div>
+    
+    <div class="prev-next-top">
+
+        <div class="next-btn">
+            <a href="3.html" class="next-btn">Next</a>
+        </div>
+        <div class="prev-btn">
+            <a href="right.html" class="prev-btn">Previous</a>
+        </div>
+
+    </div>
+
+    <hr style="margin-top: 90px; opacity: 0.3;">
+    <p>Booleans represent one of two values: <code class="w3-codespan">True</code> or <code class="w3-codespan">False</code>.</p>
+    <hr style="margin-top: 20px; opacity: 0.3;">
+    <div class="content">
+
+        <h2>Boolean Values</h2>
+        <p>In programming you often need to know if an expression is <code class="w3-codespan">True</code> or <code class="w3-codespan">False</code>.</p>
+        <p>You can evaluate any expression in Python, and get one of two answers, <code class="w3-codespan">True</code> or <code class="w3-codespan">False</code></p>
+        <p>When you compare two values, the expression is evaluated and Python returns the Boolean answer:</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <div class="code_bg">
+                <pre>print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+                </pre>
+            </div>
+        
+             <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div> 
+        </div>
+        <p>When you run a condition in an if statement, Python returns <code class="w3-codespan">True</code> or <code class="w3-codespan">False</code>:</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Print a message based on whether the condition is <code class="w3-codespan">True</code> or <code class="w3-codespan">False</code>:</p>
+            <div class="code_bg">
+                <pre>a = 200
+b = 33
+if b > a:
+    print("b is greater than a")
+else:
+    print("b is not greater than a")
+                    
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <hr style="margin-top: 30px; opacity: 0.3;">
+        <h2>Evaluate Values and Variables</h2>
+        <p>The <code class="w3-codespan">bool()</code> function allows you to evaluate any value, and give you <code class="w3-codespan">True</code> or <code class="w3-codespan">False</code> in return,</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Evaluate a string and a number:</p>
+            <div class="code_bg">
+                <pre>print(bool("Hello"))
+print(bool(15))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Evaluate two variables:</p>
+            <div class="code_bg">
+                <pre>x = "Hello"
+y = 15
+                    
+print(bool(x))
+print(bool(y))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <hr style="margin-top: 30px; opacity: 0.3;">
+        <h2>Most Values are True</h2>
+        <p>Almost any value is evaluated to <code class="w3-codespan">True</code> if it has some sort of content.</p>
+        <p>Any string is <code class="w3-codespan">True</code>, except empty strings.</p>
+        <p>Any number is <code class="w3-codespan">True</code>, except <code class="w3-codespan">0</code>.</p>
+        <p>Any list, tuple, set, and dictionary are <code class="w3-codespan">True</code>, except empty ones.</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>The following will return True:</p>
+            <div class="code_bg">
+                <pre>bool("abc")
+bool(123)
+bool(["apple", "cherry", "banana"])
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <hr style="margin-top: 30px; opacity: 0.3;">
+        <h2>Some Values are False</h2>
+        <p>In fact, there are not many values that evaluate to <code class="w3-codespan">False</code>, except empty values, such as <code class="w3-codespan">()</code>, <code class="w3-codespan">[]</code>, <code class="w3-codespan">{}</code>, <code class="w3-codespan">""</code>, the number <code class="w3-codespan">0</code>, and the value <code class="w3-codespan">None</code>. And of course the value <code class="w3-codespan">False</code> evaluates to <code class="w3-codespan">False</code>.</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>The following will return False:</p>
+            <div class="code_bg">
+                <pre>bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <p>One more value, or object in this case, evaluates to <code class="w3-codespan">False</code>, and that is if you have an object that is made from a class with a <code class="w3-codespan">__len__</code> function that returns <code class="w3-codespan">0</code> or <code class="w3-codespan">False</code>:</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <div class="code_bg">
+                <pre>class myclass():
+    def __len__(self):
+        return 0
+                  
+myobj = myclass()
+print(bool(myobj))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <hr style="margin-top: 30px; opacity: 0.3;">
+        <h2>Functions can Return a Boolean</h2>
+        <p>You can create functions that returns a Boolean Value:</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Print the answer of a function:</p>
+            <div class="code_bg">
+                <pre>def myFunction() :
+    return True
+                  
+print(myFunction())
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <p>You can execute code based on the Boolean answer of a function:</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Print "YES!" if the function returns True, otherwise print "NO!":</p>
+            <div class="code_bg">
+                <pre>def myFunction() :
+    return True
+                  
+if myFunction():
+    print("YES!")
+else:
+    print("NO!")
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+        <p>Python also has many built-in functions that return a boolean value, like the <code class="w3-codespan">isinstance()</code> function, which can be used to determine if an object is of a certain data type:</p>
+        <div class="ex_box">
+            <p>Example</p>
+            <p>Check if an object is an integer or not:</p>
+            <div class="code_bg">
+                <pre>x = 200
+print(isinstance(x, int))
+                </pre>
+            </div>
+        
+            <div class="try_btn"><a href="https://www.w3schools.com/python/trypython.asp?filename=demo_default" target="_blank">Try With Yourself>></a></div>
+        </div>
+    <hr style="margin-top: 30px; opacity: 0.3;">
+    <div class="prev-next-bottom">
+
+        <div class="next-btn">
+            <a href="3.html" class="next-btn">Next</a>
+        </div>
+        <div class="prev-btn">
+            <a href="right.html" class="prev-btn">Previous</a>
+        </div>
+
+    </div> -->
+    
+</body>
+</html>
